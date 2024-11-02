@@ -1,5 +1,8 @@
-﻿namespace ScreenSound.Modelos;
-internal class Banda
+﻿using System;
+namespace ScreenSound.Modelos;
+
+
+public class Banda
 {
     private List<Album> albuns = new List<Album>();
     private List<Avaliacao> notas = new List<Avaliacao>();
